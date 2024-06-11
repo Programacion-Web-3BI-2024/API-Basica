@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PizzaController;
 
 // Según el estandar REST, la URI de la ruta SIEMPRE
-// representa el recurso que se va a manipular.
+// representa el recurso que se va a manipular (en este caso /pizza).
 // La accion se representa con el metodo HTTP:
 // GET -> Leer
 // POST -> Crear
