@@ -23,5 +23,9 @@ class PizzaController extends Controller
         return Pizza::findOrFail($id);
     }
 
-    
+    public function Eliminar(Request $request, $id){
+        $pizza = Pizza::findOrFail($id);
+        $pizza -> delete();
+        return [ 'mensaje' => 'Pizza eliminada' ];
+    }
 }
