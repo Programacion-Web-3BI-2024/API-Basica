@@ -45,7 +45,7 @@ php artisan key:generate
 
 *Nota*: estos pasos se ejecutan automáticamente cuando creamos un proyecto con Composer, pero si son necesarios cuando clonamos un proyecto desde Github
 
-*Nota2*: Le puse comentarios. Me la banco. 
+*Nota2*: Le puse comentarios. Me la banco. En el código tambien hay. Y tambien me la banco.
 
 ## 
 
