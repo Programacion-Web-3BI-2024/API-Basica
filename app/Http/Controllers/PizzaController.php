@@ -13,6 +13,15 @@ class PizzaController extends Controller
         $pizza -> precio = $request->post("precio");
         $pizza -> save();
         return $pizza; // Por estandar REST, retornamos el modelo creado
-
     }
+
+    public function ListarTodas(Request $request){
+        return Pizza::all();
+    }
+
+    public function ListarUna(Request $request, $id){
+        return Pizza::findOrFail($id);
+    }
+
+    
 }

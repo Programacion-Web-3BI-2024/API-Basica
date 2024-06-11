@@ -6,4 +6,7 @@ use App\Http\Controllers\PizzaController;
 
 
 Route::post('/pizza', [PizzaController::class, 'Crear']);
+Route::get('/pizza', [PizzaController::class, 'ListarTodas']);
+Route::get('/pizza/{d}', [PizzaController::class, 'ListarUna']);
+
 
